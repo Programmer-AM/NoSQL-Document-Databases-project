@@ -193,7 +193,7 @@ class Gsmarena():
                     else:
                         phone_data.update({temp[0]: temp[1]})
         except:
-            print("exception tamu ima")
+            print("exception")
             return phone_data
 
         return phone_data
